@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "model": "qwen2.5:3b",
+    "system_prompt": "You are a helpful assistant. Answer clearly and concisely.",
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 512,
+    "num_ctx": 4096
+  },
+  "overhead_tokens": 26,
+  "pairs": 50,
+  "calls": 100,
+  "ollama_version": "0.40.16",
+  "model_digest": "357c53fb659c"
+}

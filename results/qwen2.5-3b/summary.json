@@ -1,0 +1,132 @@
+{
+  "pairs": 50,
+  "overhead_tokens": 26,
+  "overall": {
+    "en": {
+      "calls": 50,
+      "input_tokens": 2310,
+      "output_tokens": 2938,
+      "cost_usd": 0.0021093
+    },
+    "bn": {
+      "calls": 50,
+      "input_tokens": 5676,
+      "output_tokens": 10145,
+      "cost_usd": 0.006938399999999997
+    },
+    "input_ratio": 2.4571428571428573,
+    "output_ratio": 3.4530292716133424,
+    "total_cost_ratio": 3.289432513156022
+  },
+  "overall_content_ratio": 4.332673267326733,
+  "content_tokens": {
+    "en": 1010,
+    "bn": 4376
+  },
+  "spread": {
+    "input_ratio": {
+      "n": 50,
+      "mean": 2.285444238365905,
+      "median": 2.1416871416871417,
+      "min": 1.1111111111111112,
+      "max": 4.220588235294118,
+      "ci95_low": 2.0984125389800194,
+      "ci95_high": 2.483568433025728
+    },
+    "content_ratio": {
+      "n": 50,
+      "mean": 4.292624837986341,
+      "median": 4.122844827586206,
+      "min": 1.4,
+      "max": 6.785714285714286,
+      "ci95_low": 3.9597155340238492,
+      "ci95_high": 4.6226272173896925
+    },
+    "output_ratio": {
+      "n": 50,
+      "mean": 5.201597259669113,
+      "median": 4.0,
+      "min": 1.0714285714285714,
+      "max": 18.08,
+      "ci95_low": 4.240333288329787,
+      "ci95_high": 6.243707366044742
+    },
+    "total_cost_ratio": {
+      "n": 50,
+      "mean": 4.046370296312033,
+      "median": 3.3676326046432803,
+      "min": 1.1170212765957446,
+      "max": 13.933333333333334,
+      "ci95_low": 3.4207992320162983,
+      "ci95_high": 4.746781978126194
+    }
+  },
+  "by_category": {
+    "question": {
+      "pairs": 9,
+      "content_ratio_mean": 3.6035714285714286,
+      "input_ratio_mean": 1.6754967980458177,
+      "total_cost_ratio_mean": 3.5372582951202967,
+      "en_content": 83,
+      "bn_content": 299
+    },
+    "instruction": {
+      "pairs": 8,
+      "content_ratio_mean": 5.1146284271284275,
+      "input_ratio_mean": 2.221282451458535,
+      "total_cost_ratio_mean": 5.755466949110895,
+      "en_content": 90,
+      "bn_content": 456
+    },
+    "explanation": {
+      "pairs": 8,
+      "content_ratio_mean": 5.309072871572871,
+      "input_ratio_mean": 2.1057354205961016,
+      "total_cost_ratio_mean": 4.688825705721502,
+      "en_content": 73,
+      "bn_content": 385
+    },
+    "arithmetic": {
+      "pairs": 8,
+      "content_ratio_mean": 2.586195286195286,
+      "input_ratio_mean": 1.5942518413285542,
+      "total_cost_ratio_mean": 3.426046497272292,
+      "en_content": 119,
+      "bn_content": 327
+    },
+    "summarise": {
+      "pairs": 7,
+      "content_ratio_mean": 4.546691403834261,
+      "input_ratio_mean": 2.672300663340406,
+      "total_cost_ratio_mean": 3.5658019296781136,
+      "en_content": 163,
+      "bn_content": 741
+    },
+    "long": {
+      "pairs": 10,
+      "content_ratio_mean": 4.629308653616166,
+      "input_ratio_mean": 3.3116478385434505,
+      "total_cost_ratio_mean": 3.455986343493465,
+      "en_content": 482,
+      "bn_content": 2168
+    }
+  },
+  "latency_s": {
+    "en": {
+      "mean": 9.08509432399951,
+      "median": 4.947427999999491,
+      "total": 454.2547161999755
+    },
+    "bn": {
+      "mean": 27.2034555540001,
+      "median": 18.789659850001044,
+      "total": 1360.172777700005
+    }
+  },
+  "truncated": {
+    "en": 0,
+    "bn": 6
+  },
+  "bn_answers_mostly_bangla": 45,
+  "recount_mismatches": 0
+}

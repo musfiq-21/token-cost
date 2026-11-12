@@ -1,0 +1,304 @@
+id,category,language,prompt,output,input_tokens,output_tokens,content_tokens,cost_usd,latency_s,done_reason,truncated,output_bengali_share,recount_input_tokens,recount_matches
+p01,question,en,What is the capital of Japan?,The capital of Japan is Tokyo.,33,8,7,9.75e-06,2.891383499998483,stop,False,0.0,33,True
+p01,question,bn,জাপানের রাজধানী কী?,"জাপানের রাজধানী হল কো东京 (Tōkyō).
+
+(Important note: As of 2021, Tokyo is still considered the capital of Japan, though the government is currently relocating some of its functions to the eastern island of Shikoku.)",47,72,21,5.0249999999999995e-05,8.677209300003597,stop,False,0.108,47,True
+p02,question,bn,অধিবর্ষে কত দিন থাকে?,"অধিবর্ষে 365 দিন থাকে। যদি সালে একটি ক্লাসিফাইক্যাশন থাকে, তাহলে অধিবর্ষে 366 দিন থাকে।",47,88,21,5.985e-05,10.418399299996963,stop,False,1.0,47,True
+p02,question,en,How many days are there in a leap year?,There are 366 days in a leap year.,36,13,10,1.3199999999999999e-05,3.4489890999975614,stop,False,0.0,36,True
+p03,question,en,Who wrote the novel Pather Panchali?,"The novel ""Pather Panchali"" (also known as ""The River Boy"") was written by Rabindranath Tagore.",36,29,10,2.28e-05,5.031587900004524,stop,False,0.0,36,True
+p03,question,bn,পথের পাঁচালী উপন্যাসটি কে লিখেছেন?,পথের পাঁচালী উপন্যাসটি জে. কেনিন্গস লিখেছেন।,61,46,35,3.675e-05,7.129456400005438,stop,False,1.0,61,True
+p04,question,bn,কোন গ্রহ সূর্যের সবচেয়ে কাছে?,সূর্যের সবচেয়ে কাছে গ্রহ হল ভূগ্রহ (Earth).,59,42,33,3.405e-05,6.035499500001606,stop,False,0.857,59,True
+p04,question,en,Which planet is closest to the Sun?,The planet closest to the Sun is Mercury.,34,10,8,1.1099999999999999e-05,2.9908983999994234,stop,False,0.0,34,True
+p05,question,en,What is the boiling point of water at sea level in degrees Celsius?,The boiling point of water at sea level is 100 degrees Celsius.,40,17,14,1.62e-05,3.628582199999073,stop,False,0.0,40,True
+p05,question,bn,সমুদ্রপৃষ্ঠে পানির স্ফুটনাঙ্ক কত ডিগ্রি সেলসিয়াস?,সমুদ্রপৃষ্ঠের পানির স্ফুটনা 36.6°C সেলসিয়াস বা 309.73 K তাপমাত্রা হয়।,80,75,54,5.7e-05,9.136373099994671,stop,False,0.96,80,True
+p06,question,bn,শরৎকালে পাতার রং বদলায় কেন?,শরৎকালে পাতার রং বদলায় কারণ শরৎ অবধি পাতার রং বিশাল হয়ে যায় এবং বোঝায় পাতার বিন্যাস বিস্তারিত হওয়ার প্রয়াস। এটি পাতার বিন্যাস এবং বিশালতা বৈশিষ্ট্য দেয়।,56,174,30,0.00011279999999999999,17.677271700005804,stop,False,1.0,56,True
+p06,question,en,Why do leaves change colour in autumn?,"Leaves change color in autumn due to a combination of factors, primarily changes in daylight length and temperature. As days get shorter and cooler weather approaches, trees prepare for winter by reducing their production of chlorophyll, the green pigment in leaves. When chlorophyll production decreases, other pigments that were present but masked by the green chlorophyll become visible. These include yellow and orange pigments like carotene and xanthophyll. Additionally, the breakdown of chlorophyll exposes red and purple pigments like anthocyanin, which are produced in the leaves as they prepare for winter.",34,123,8,7.89e-05,13.004047100002936,stop,False,0.0,34,True
+p07,question,en,What is the largest river in Bangladesh?,The largest river in Bangladesh is the Ganges.,34,11,8,1.17e-05,3.0969016999952146,stop,False,0.0,34,True
+p07,question,bn,বাংলাদেশের বৃহত্তম নদী কোনটি?,বাংলাদেশের বৃহত্তম নদী হল গাজিসৌম্য।,58,40,32,3.27e-05,5.880231399998593,stop,False,1.0,58,True
+p08,question,bn,টিকা কীভাবে শরীরকে রোগ থেকে রক্ষা করে?,"টিকা শরীরকে রোগ থেকে রক্ষা করার জন্য নিম্নলিখিত কিছু পদক্ষেপ করা যায়:
+
+1. সামান্য খাদ্য খাওয়া: টিকা সামান্য খাদ্য খাওয়ায় শরীরের শক্তি বৃদ্ধি পায় এবং রোগ থেকে রক্ষা প্রদান করে।
+
+2. সুইট পরিবেশে থাকা: টিকা সুইট পরিবেশে থাকলে তার শরীরের শক্তি বৃদ্ধি পায় এবং রোগ থেকে রক্ষা প্রদান করে।
+
+3. সামান্য পানি খাওয়া: টিকা সামান্য পানি খাওয়ায় শরীরের শক্তি বৃদ্ধি পায় এবং রোগ থেকে রক্ষা প্রদান করে।
+
+4. সামান্য শোনানা করা: টিকা সামান্য শোনানা করলে তার শরীরের শক্তি বৃদ্ধি পায় এবং রোগ থ",67,512,41,0.00031725,51.00212309999915,length,True,1.0,67,True
+p08,question,en,How does a vaccine protect the body from disease?,"A vaccine protects the body from disease by preparing it to fight off real pathogens if it encounters them in the future. Here's how it works:
+
+1. **Introduction of an Inactivated or Attenuated Pathogen**: The vaccine contains either an inactivated (killed) or attenuated (weakened) form of a pathogen, such as a virus or bacteria. This allows the immune system to recognize the pathogen without getting sick.
+
+2. **Immune Response**: When the vaccine is introduced into the body, it triggers an immune response. The immune system recognizes the vaccine as foreign and mounts an immune response, including the production of antibodies and the activation of immune cells like T cells.
+
+3. **Memory Cells**: The immune system remembers the pathogen introduced in the vaccine. This memory can last for years or even a lifetime, depending on the vaccine.
+
+4. **Future Protection**: If the vaccinated person is later exposed to the actual pathogen, their immune system can quickly recognize and respond to it, often preventing the person from getting sick or severely ill.
+
+This process is known as ""immunization"" and is the primary way vaccines protect against diseases.",36,237,10,0.00014759999999999998,24.351184099999955,stop,False,0.0,36,True
+p09,question,en,Is it safe to drink rainwater?,"Drinking rainwater can be safe if it is collected and treated properly. However, rainwater can contain contaminants such as chemicals from the atmosphere, pollutants from the ground, and bacteria or viruses if not properly treated. It's important to filter and test the water before drinking to ensure it is safe.",34,61,8,4.1700000000000004e-05,7.583007299996098,stop,False,0.0,34,True
+p09,question,bn,বৃষ্টির পানি পান করা কি নিরাপদ?,বৃষ্টির পানি পান করা নিরাপদ নয়। এটি বিক্ষিব্য বা বায়ুমণ্ডের প্রাকৃতিক প্রক্রিয়া হিসেবে বোঝায় যা নিরাপদ। কিন্তু পানি পান করা যায় না কারণ এটি বিক্ষিব্য বা বায়ুমণ্ডের প্রাকৃতিক প্রক্রিয়ার সাথে সাথে একটি প্রাকৃতিক প্রক্রিয়া হিসেবে বোঝায় যা নিরাপদ নয়। এটি বিক্ষিব্য বা বায়ুমণ্ডের প্রাকৃতিক প্রক্রিয়ার সাথে সাথে একটি প্রাকৃতিক প্রক্রিয়া হিসেবে বোঝায় যা নিরাপদ নয়। এটি বিক্ষিব্য বা বায়ুমণ্ডের প্রাকৃতিক প্রক্রিয়ার সাথে সাথে একটি প্রাকৃতিক প্রক্রিয়া হিসেবে বোঝায,58,512,32,0.0003159,48.43660590000218,length,True,1.0,58,True
+p10,instruction,bn,'শুভ সকাল' কথাটি ফরাসি ভাষায় অনুবাদ করো।,'শুভ সকাল' ফরাসি ভাষায় 'Bonne matinée' অনুবাদ করা যায়।,71,52,45,4.185e-05,7.014564799996151,stop,False,0.721,71,True
+p10,instruction,en,Translate 'good morning' into French.,"Good morning in French is ""bonne matinée"".",34,13,8,1.2899999999999998e-05,3.3703193999972427,stop,False,0.0,34,True
+p11,instruction,en,List three fruits that are rich in vitamin C.,"Three fruits rich in vitamin C are:
+1. Orange
+2. Kiwi
+3. Grapefruit",36,22,10,1.8599999999999998e-05,4.188554399996065,stop,False,0.0,36,True
+p11,instruction,bn,ভিটামিন সি সমৃদ্ধ তিনটি ফলের নাম লেখো।,"ভিটামিন সি সমৃদ্ধ তিনটি ফল:
+
+1. কুচি
+2. কুচি গুড়ি
+3. কুচি গুড়ি গুড়ি
+
+কুচি এবং কুচি গুড়ি এই নামের দুটি ফল হলেও, কুচি গুড়ি গুড়ি একটি অন্য ফলও হলেও, তাদের ভিটামিন সির সমৃদ্ধতা সামান্য নয়। এই ফলগুলি ভিটামিন সির সমৃদ্ধ হওয়ার জন্য বেশি পরিমাণে কাপড় করা হয়।",66,286,40,0.0001815,28.998714900000778,stop,False,1.0,66,True
+p12,instruction,bn,একজন বন্ধুর জন্য এক বাক্যে জন্মদিনের শুভেচ্ছা লেখো।,"ভালোক, জন্মদিনের শুভেচ্ছা জানা যায় না। তবে, একজন বন্ধুর জন্য শুভেচ্ছা লিখা যায়: ""ভালোক, জন্মদিনের শুভেচ্ছা থেকে তোমার বন্ধুত্বের জীবনে সুখ ও সুখীতা থাকুন।""",80,172,54,0.00011520000000000001,18.127482600000803,stop,False,1.0,80,True
+p12,instruction,en,Write a one-sentence birthday wish for a friend.,Happy birthday! May this year bring you endless joy and all your dreams come true.,37,18,11,1.6349999999999998e-05,3.68206310000096,stop,False,0.0,37,True
+p13,instruction,en,Give two tips for saving electricity at home.,"1. Turn off lights and unplug electronics when not in use.
+2. Use energy-efficient light bulbs and appliances.",35,25,9,2.025e-05,4.336648800002877,stop,False,0.0,35,True
+p13,instruction,bn,বাড়িতে বিদ্যুৎ সাশ্রয়ের দুটি পরামর্শ দাও।,"1. বিদ্যুৎ সাশ্রয়ের পরিকল্পনা করতে বাড়িতে বিদ্যুৎ সাফল্য প্রদান করা যায়। বিদ্যুৎ সাশ্রয়ের পরিকল্পনা করার জন্য বাড়িতে একটি সাফল্য প্রদানকারী বিদ্যুৎ সাশ্রয়ের সাহায্য প্রয়াস করা উচিত।
+
+2. বিদ্যুৎ সাশ্রয়ের পরিকল্পনা করার জন্য বাড়িতে বিদ্যুৎ সাফল্য প্রদানকারী বিদ্যুৎ সাশ্রয়ের সাহায্য প্রয়াস করা উচিত। এটি বিদ্যুৎ সাশ্রয়ের পরিকল্পনা করার জন্য বাড়িতে একটি সাফল্য প্রদানকারী বিদ্যুৎ সাশ্রয়ের সাহায্য প্রয়াস করা উচিত।",73,452,47,0.00028215,51.257723200003966,stop,False,1.0,73,True
+p14,instruction,bn,"শিক্ষকের কাছে জমা দেওয়ার সময়সীমা বাড়ানোর অনুরোধ জানিয়ে একটি ছোট, ভদ্র ইমেইল লেখো।","স্যার শিক্ষক,
+
+আমি আপনার কাছে জমা দেওয়ার সময়সীমা বাড়িয়ে দেওয়ার অনুরোধ করছি। আমাদের অন্যান্য প্রশ্ন থেকে বিশেষভাবে সময় লাগে এবং আমাদের প্রতিষ্ঠানের জন্য এটা কাজের জন্য জরুরি। আমাদের সাথে যৌথ করা সময় বাড়ানো আমাদের প্রতিষ্ঠানের জন্য বিশেষভাবে উপযোগী।
+
+আমি এই অনুরোধ করছি আপনার কাছে একটি প্রতিক্রিয়া পাঠান।
+
+স্বাক্ষম্যান,
+[আপনার নাম]",121,354,95,0.00023055000000000002,54.70964990000357,stop,False,1.0,121,True
+p14,instruction,en,"Write a short, polite email asking a teacher for a deadline extension.","Subject: Request for Extension on [Assignment Name]
+
+Dear [Teacher's Name],
+
+I hope this email finds you well. I am writing to request an extension on the [Assignment Name] due date. I have encountered some personal issues that have temporarily impacted my ability to complete the assignment on time. I am committed to submitting a high-quality piece of work and would greatly appreciate the opportunity to resubmit it within the next [specify a new deadline, e.g., 5 days].
+
+Thank you very much for your understanding and support.
+
+Best regards,
+[Your Name]",40,116,14,7.56e-05,19.211602200004563,stop,False,0.0,40,True
+p15,instruction,en,Suggest a name for a small tea shop.,Whisper Tea,36,4,10,7.8e-06,2.793199399995501,stop,False,0.0,36,True
+p15,instruction,bn,একটি ছোট চায়ের দোকানের জন্য একটি নাম প্রস্তাব করো।,চায়ের প্রেমী (Chaat Premi),81,22,55,2.535e-05,5.769310600000608,stop,False,0.545,81,True
+p16,instruction,bn,এই বাক্যটি অতীত কালে লেখো: আমি বাসে করে স্কুলে যাই।,আগে বাসে করে স্কুলে যাই।,80,26,54,2.76e-05,6.2210084999969695,stop,False,1.0,80,True
+p16,instruction,en,Rewrite this sentence in the past tense: I go to school by bus.,I went to school by bus.,42,8,16,1.1099999999999999e-05,3.300997299993469,stop,False,0.0,42,True
+p17,instruction,en,Make a shopping list for a simple breakfast for four people.,"- 4 eggs
+- Milk or yogurt
+- Honey or maple syrup
+- Bread or English muffins
+- Fruit (bananas, berries)
+- Cheese
+- Peanut butter
+- Coffee or tea",38,43,12,3.15e-05,8.251126800001657,stop,False,0.0,38,True
+p17,instruction,bn,চারজনের একটি সাধারণ সকালের নাস্তার জন্য বাজারের তালিকা তৈরি করো।,"Sure, here is a list of items you might find in a typical morning grocery store:
+
+1. Milk
+2. Bread
+3. Eggs
+4. Cheese
+5. Fresh fruits (apples, bananas, oranges)
+6. Fresh vegetables (lettuce, tomatoes, carrots)
+7. Canned goods (beans, tuna, soups)
+8. Toilet paper
+9. Coffee/Tea
+10. Snacks (candies, chips)
+11. Cleaning supplies (detergent, paper towels)
+12. Coffee/Tea
+13. Honey
+14. Sugar
+15. Bread
+
+This list is a general representation and might vary based on regional availability and personal preferences.",92,149,66,0.00010319999999999999,24.27034149999963,stop,False,0.0,92,True
+p18,explanation,bn,"সালোকসংশ্লেষণ কী, তা সহজ ভাষায় ব্যাখ্যা করো।",সালোকসংশ্লেষণ হলো একটি শব্দ বা শব্দ组合 যা একটি ভাষায় অন্য ভাষায়ের একটি শব্দ বা শব্দ组合 সমান বা সাদৃশ্যপূর্ণ হয়।,76,121,50,8.4e-05,19.901307500003895,stop,False,0.957,76,True
+p18,explanation,en,Explain what photosynthesis is in simple words.,Photosynthesis is the process by which plants use sunlight to convert water and carbon dioxide into oxygen and energy in the form of sugar. It's like a plant using sunlight to make its own food.,36,40,10,2.94e-05,7.901115999993635,stop,False,0.0,36,True
+p19,explanation,en,Explain why the sky looks blue.,"The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere, it interacts with air molecules (primarily nitrogen and oxygen) and tiny particles like dust and water droplets. Shorter wavelength light, such as blue light, is scattered more than longer wavelength light like red light. This is because blue light particles collide more frequently with air molecules and smaller particles, getting pushed in all directions. As a result, we see more blue light coming from all directions, making the sky appear blue.",34,107,8,6.93e-05,17.435499999999593,stop,False,0.0,34,True
+p19,explanation,bn,"আকাশ কেন নীল দেখায়, ব্যাখ্যা করো।","আকাশ নীল হওয়া হয় কারণ পৃথিবীর জলপানের জল আকাশে পড়ে যায়। এই জল আকাশের সাথে মিশে রঙ বদলে যায় এবং নীল হয়ে যায়। এটি জলের জলের মিশন বা জলের জলের মিশন রেখার মতো হয়।
+
+এটি সাধারণত বর্ষাকালীন সময়ে বেশি দেখা যায়, কারণ তখন জলপান বেশি পড়ে যায়। কিন্তু এটি সমস্ত দিনে হয় না, কারণ আকাশের জল প্রায়ই প্রাকৃতিক পরিবর্তনের মাধ্যমে প্রাকৃতিকভাবে বাড়া হয় এবং নীল হয়ে যায়।",63,398,37,0.00024825,60.41007379999792,stop,False,1.0,63,True
+p20,explanation,bn,মুদ্রাস্ফীতি কী? সংক্ষেপে ব্যাখ্যা করো।,মুদ্রাস্ফীতি হল ব্যবহারকারীদের মুদ্রার ব্যবহারের পরিমাণ বা পরিমাণের কমানুষ্য বা সামান্য করা যায় এবং এটি ব্যবহারকারীদের মুদ্রার ব্যবহারের পরিমাণ বা পরিমাণের বাড়িয়ে দেয়া যায়। এটি ব্যবহারকারীদের মুদ্রার ব্যবহারের পরিমাণ বা পরিমাণের কমানুষ্য বা সামান্য করা যায় এবং এটি ব্যবহারকারীদের মুদ্রার ব্যবহারের পরিমাণ বা পরিমাণের বাড়িয়ে দেয়া যায়।,70,368,44,0.00023129999999999998,55.613026300001366,stop,False,1.0,70,True
+p20,explanation,en,What is inflation? Explain briefly.,"Inflation is a general increase in prices and fall in the purchasing value of money. When inflation is positive, it reduces the purchasing power of money over time. This means that the same amount of money will buy fewer goods and services in the future. Inflation is typically measured as a percentage increase in a price index, such as the Consumer Price Index (CPI).",33,75,7,4.995e-05,12.969781699997839,stop,False,0.0,33,True
+p21,explanation,en,Explain the difference between weather and climate.,"Weather refers to the short-term atmospheric conditions at a particular location, including temperature, humidity, wind, and precipitation over a period of hours to weeks. Climate, on the other hand, describes the long-term average of these conditions over many years, typically spanning decades to centuries.",35,56,9,3.885e-05,10.308742500004882,stop,False,0.0,35,True
+p21,explanation,bn,আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য ব্যাখ্যা করো।,"আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য হল:
+
+1. আবহাওয়া একটি পরিবর্তনশীল পরিসংখ্যানিক প্রকার। জলবায়ু একটি স্থিতিশীল প্রকার।
+
+2. আবহাওয়া জল ও পরিবন্ধিত জলের মধ্যে পার্থক্য রয়েছে। জলবায়ু জল ও জলের পরিবন্ধক মধ্যে পার্থক্য রয়েছে।
+
+3. আবহাওয়া জল ও জলের পরিবন্ধক মধ্যে পার্থক্য রয়েছে। জলবায়ু জল ও জলের পরিবন্ধক মধ্যে পার্থক্য রয়েছে।
+
+4. আবহাওয়া জল ও জলের পরিবন্ধক মধ্যে পার্থক্য রয়েছে। জলবায়ু জল ও জলের পরিবন্ধক মধ্যে পার্থক্য রয়েছে।
+
+5. আবহাওয়া জল ও জলের পরিবন্ধক মধ্যে পার্থক্য রয়েছে।",78,512,52,0.0003189,77.47183110000333,length,True,1.0,78,True
+p22,explanation,bn,"ইন্টারনেট কীভাবে কাজ করে, সংক্ষেপে ব্যাখ্যা করো।",ইন্টারনেট কাজ করে সেটি একটি বিশাল ডিজিটাল বোর্ড হিসেবে ব্যবহার করে। এটি বিভিন্ন ডেটা এবং ইমাগের সেট থেকে সংযোগ করে এবং একটি স্ট্যান্ডার্ড বাইনারি বাইনারি সিস্টেমে বিক্ষিব্যাপী বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি বাইনারি ব,77,512,51,0.00031874999999999997,73.85175139999774,length,True,1.0,77,True
+p22,explanation,en,Briefly explain how the internet works.,"The internet works by connecting millions of devices and servers through a network of interconnected servers and routers. When you access a website, your device sends a request to a server, which then sends the requested data back. This data travels through routers that direct it to its destination, often across multiple networks. The core of the internet relies on protocols like TCP/IP for data transmission and routing. Data packets are broken into smaller segments, transmitted, and reassembled at the destination. Security is provided by protocols like HTTPS, which encrypts data to protect it from interception.",34,113,8,7.29e-05,14.534144700002798,stop,False,0.0,34,True
+p23,explanation,en,Explain what a computer virus is.,"A computer virus is a type of malicious software (malware) that can replicate itself and spread to other files or devices. It modifies the code of the infected files, often altering their functionality. Unlike a hardware virus, a computer virus does not require physical contact to spread. It spreads through email attachments, infected links, or compromised software downloads. Once activated, a virus can cause damage to files, steal data, or disrupt system operations.",34,89,8,5.85e-05,14.637092600001779,stop,False,0.0,34,True
+p23,explanation,bn,"কম্পিউটার ভাইরাস কী, ব্যাখ্যা করো।",কম্পিউটার ভাইরাস হল কম্পিউটারে একটি অস্ত্রীয় বুদ্ধিমত্তা যা কম্পিউটারের ডেটা বা ফাইলগুলির সংরক্ষা করা যায় বা প্রকাশ করা যায় এবং এটি কম্পিউটারের জন্য বিপদ হিসেবে ব্যবহৃত হয়। এগুলো কম্পিউটারে প্রবেশ করে এবং কম্পিউটারের ডেটা বা ফাইলগুলে প্রবেশ করে যা কম্পিউটারের জন্য বিপদ হিসেবে ব্যবহৃত হয়। এগুলো সামগ্রিকভাবে কম্পিউটারের জন্য বিপদ হিসেবে ব্যবহৃত হয় এবং এটি কম্পিউটারের জন্য বিপদ হিসেবে ব্যবহৃত হয়।,62,427,36,0.0002655,64.31902780000382,stop,False,1.0,62,True
+p24,explanation,bn,শিক্ষার্থীদের জন্য ঘুম কেন গুরুত্বপূর্ণ? দুই বাক্যে ব্যাখ্যা করো।,"শিক্ষার্থীদের জন্য ঘুম গুরুত্বপূর্ণ, কারণ ঘুম শিক্ষার শুরু হওয়ার পরিবর্তে শিক্ষার সময় বৃদ্ধি হয়।
+
+অন্যভাবে: শিক্ষার্থীদের জন্য ঘুম গুরুত্বপূর্ণ, কারণ ঘুম শিক্ষার শুরু হওয়ার পরিবর্তে শিক্ষার সময় বৃদ্ধি হয়।",98,234,72,0.0001551,37.41531249999389,stop,False,1.0,98,True
+p24,explanation,en,Why is sleep important for students? Explain in two sentences.,"Sleep is crucial for students as it helps consolidate learning from the day, improves memory and cognitive function, and supports overall academic performance. Adequate sleep also aids in emotional regulation and reduces stress, which are essential for managing school-related pressures.",38,48,12,3.45e-05,9.031989900002372,stop,False,0.0,38,True
+p25,explanation,en,Explain what a fixed deposit in a bank is.,"A fixed deposit (FD) in a bank is a savings instrument where an individual deposits money for a fixed term in a bank account. The bank pays a higher interest rate for this term, and the deposit cannot be withdrawn before the term ends. This allows individuals to earn interest on their savings while ensuring their funds are not accessible for a set period.",37,71,11,4.815e-05,12.244216800005233,stop,False,0.0,37,True
+p25,explanation,bn,"ব্যাংকে স্থায়ী আমানত কী, ব্যাখ্যা করো।","ব্যাংকের স্থায়ী আমানত হলো ব্যাংকের ব্যবস্থাপনা ও কাজের জন্য একটি স্বীকৃতি বা সাহায্য। এটি ব্যাংকের কাজের সুবিধা এবং সহায়তা হিসেবে বোঝায়। ব্যাংকের স্থায়ী আমানত বিভিন্ন প্রকারে হয়, যেমন- ব্যাংকের প্রতিষ্ঠানের সদস্যতা, ব্যাংকের কাজের জন্য সাহায্য করা প্রোটোকল, ব্যাংকের কাজের জন্য সাহায্য করা কর্মীরা এবং ব্যাংকের কাজের জন্য সাহায্য করা প্রক্রিয়া।",69,370,43,0.00023235,36.754457700000785,stop,False,1.0,69,True
+p26,arithmetic,bn,১৭ + ২৫ কত?,"১৭ + ২৫ = ৪২
+
+This is a simple addition problem in the Bengali numeral system. The answer is 42 in the decimal number system.",40,43,14,3.18e-05,6.01553199999762,stop,False,0.064,40,True
+p26,arithmetic,en,What is 17 + 25?,17 + 25 = 42,36,11,10,1.1999999999999999e-05,3.1328553999992437,stop,False,0.0,36,True
+p27,arithmetic,en,What is 144 divided by 12?,12,38,3,12,7.5e-06,2.4288639000005787,stop,False,0.0,38,True
+p27,arithmetic,bn,১৪৪ কে ১২ দিয়ে ভাগ করলে কত হয়?,১৪৪ কে ১২ দিয়ে ভাগ করলে ১২ হয়।,65,42,39,3.4949999999999996e-05,6.086982100001478,stop,False,1.0,65,True
+p28,arithmetic,bn,২০০ এর ১৫% কত?,200의 15%는 30입니다.,45,15,19,1.575e-05,3.506071499999962,stop,False,0.0,45,True
+p28,arithmetic,en,What is 15% of 200?,30 is 15% of 200.,38,14,12,1.41e-05,3.4491810999970767,stop,False,0.0,38,True
+p29,arithmetic,en,"If a pen costs 12 taka, how much do 7 pens cost?",The cost of 7 pens would be 84 taka.,44,15,18,1.56e-05,3.531017699999211,stop,False,0.0,44,True
+p29,arithmetic,bn,একটি কলমের দাম ১২ টাকা হলে ৭টি কলমের দাম কত?,"7 টি কলমের দাম হল 84 টাকা.
+
+(12 টাকা x 7 = 84 টাকা)",73,48,47,3.975e-05,6.7285652999999,stop,False,0.96,73,True
+p30,arithmetic,bn,একটি ট্রেন ৩ ঘণ্টায় ১৮০ কিমি যায়। এর গড় গতি কত?,"ট্রেনের গড় গতি হবে 60 কিমি/ঘণ্টা। এটি যথাযথভাবে নির্ণয় করা হয় এটি সমস্ত দূরত্ব সময়ের মধ্যে বিভকন হিসাবে।
+
+(180 কিমি / 3 ঘণ্টা = 60 কিমি/ঘণ্টা)",83,151,57,0.00010305,15.94393499999569,stop,False,1.0,83,True
+p30,arithmetic,en,A train travels 180 km in 3 hours. What is its average speed?,The average speed of the train is 60 km/h.,45,14,19,1.515e-05,3.513420600000245,stop,False,0.0,45,True
+p31,arithmetic,en,What is the square root of 81?,The square root of 81 is 9.,36,12,10,1.2599999999999998e-05,3.2952547000022605,stop,False,0.0,36,True
+p31,arithmetic,bn,৮১ এর বর্গমূল কত?,৮১ এর বর্গমূল ৯ এখনি।,46,26,20,2.2499999999999998e-05,4.5700746000002255,stop,False,1.0,46,True
+p32,arithmetic,bn,রহিমের কাছে ৫০ টাকা আছে। সে একটি বইয়ের জন্য ১৮ টাকা খরচ করে। তার কাছে কত টাকা বাকি থাকে?,"রহিম কাছে 32 টাকা বাকি থাকবে।
+
+(৫০ টাকা - ১৮ টাকা = ৩২ টাকা)",120,64,94,5.64e-05,8.927729399998498,stop,False,1.0,120,True
+p32,arithmetic,en,Rahim has 50 taka. He spends 18 taka on a book. How much money is left?,Rahim has 32 taka left.,53,12,27,1.5149999999999999e-05,3.347987100001774,stop,False,0.0,53,True
+p33,arithmetic,en,What is 3.5 multiplied by 4?,14.0,37,5,11,8.550000000000001e-06,2.600045400002273,stop,False,0.0,37,True
+p33,arithmetic,bn,৩.৫ কে ৪ দিয়ে গুণ করলে কত হয়?,৩.৫ কে ৪ দিয়ে গুণ করলে ৪.৩৫ হয়।,63,43,37,3.525e-05,8.518087000004016,stop,False,1.0,63,True
+p34,summarise,bn,এক বাক্যে সারাংশ লেখো: ম্যানেজার ভ্রমণে থাকায় সভাটি সোমবার থেকে বুধবারে সরানো হয়েছে।,"ম্যানেজার ভ্রমণের জন্য, সভা সোমবার থেকে বুধবারে সরানো হয়েছে।",118,66,92,5.73e-05,12.53921330000594,stop,False,1.0,118,True
+p34,summarise,en,Summarise in one sentence: The meeting was moved from Monday to Wednesday because the manager was travelling.,The meeting was rescheduled from Monday to Wednesday due to the manager's travel schedule.,47,18,21,1.7849999999999997e-05,4.863268099994457,stop,False,0.0,47,True
+p35,summarise,en,"Summarise: Heavy rain flooded several roads in the city this morning, and many offices opened late.","Heavy rain caused flooding on several roads in the city this morning, resulting in many offices opening later than usual.",47,23,21,2.085e-05,5.588868399994681,stop,False,0.0,47,True
+p35,summarise,bn,"সারাংশ লেখো: আজ সকালে ভারী বৃষ্টিতে শহরের কয়েকটি রাস্তা প্লাবিত হয়েছে, এবং অনেক অফিস দেরিতে খুলেছে।",আজ সকালে ভারী বৃষ্টি শহরের কয়েকটি রাস্তা প্লাবিত হয়েছে এবং অনেক অফিস দেরিতে খুলেছে।,134,92,108,7.529999999999999e-05,16.309175399997912,stop,False,1.0,134,True
+p36,summarise,bn,"কয়েক শব্দে সারাংশ লেখো: নতুন গ্রন্থাগারে আরও বেশি বই, দীর্ঘ খোলার সময় এবং সব দর্শনার্থীর জন্য বিনামূল্যে ওয়াই-ফাই রয়েছে।","নতুন গ্রন্থাগারে বইগুলো বেশি, দীর্ঘ খোলা এবং সব দর্শনার্থীর জন্য ওয়াই-ফাই।",161,84,135,7.455e-05,15.568331900001795,stop,False,1.0,161,True
+p36,summarise,en,"Summarise in a few words: The new library has more books, longer opening hours, and free Wi-Fi for all visitors.","Library features expanded hours, additional books, and free Wi-Fi.",53,14,27,1.635e-05,4.338263600002392,stop,False,0.0,53,True
+p37,summarise,en,"Summarise: The farmer used less water this year by switching to drip irrigation, and his harvest was still good.","The farmer increased water efficiency by switching to drip irrigation, yet maintained a good harvest.",50,18,24,1.8299999999999998e-05,4.851788799998758,stop,False,0.0,50,True
+p37,summarise,bn,"সারাংশ লেখো: এ বছর ড্রিপ সেচে বদল করে কৃষক কম পানি ব্যবহার করেছেন, তবুও তার ফসল ভালো হয়েছে।","This year, despite changing to drip sech, the farmer used less water, but his crop turned out well.",123,24,97,3.285e-05,6.417646200003219,stop,False,0.0,123,True
+p38,summarise,bn,"এক লাইনে সারাংশ দাও: বৃহস্পতিবার স্কুল আগে ছুটি হবে, যাতে শিক্ষকরা একটি প্রশিক্ষণে অংশ নিতে পারেন।",বৃহস্পতিবার স্কুল আগে ছুটি হবে প্রশিক্ষণের জন্য।,128,52,102,5.04e-05,10.741719899997406,stop,False,1.0,128,True
+p38,summarise,en,Give a one-line summary: The school will close early on Thursday so that teachers can attend a training session.,Teachers' training session on Thursday will result in school closing early.,48,14,22,1.56e-05,4.3293764000045485,stop,False,0.0,48,True
+p39,summarise,en,Summarise: Mobile banking has made it easier for people in villages to send and receive money without visiting a bank.,"Mobile banking allows people in villages to send and receive money remotely, eliminating the need to visit physical banks.",50,22,24,2.07e-05,5.436015499995847,stop,False,0.0,50,True
+p39,summarise,bn,সারাংশ লেখো: মোবাইল ব্যাংকিংয়ের ফলে গ্রামের মানুষ ব্যাংকে না গিয়েই সহজে টাকা পাঠাতে ও গ্রহণ করতে পারছে।,"মোবাইল ব্যাংকিং ব্যবস্থার ফলে, গ্রামের মানুষগুলো ব্যাংকে যাওয়ার পরেই টাকা প্রদান করা এবং গ্রহণ করতে পারছেন।",136,115,110,8.939999999999999e-05,19.451837100001285,stop,False,1.0,136,True
+p40,summarise,bn,"এক বাক্যে সারাংশ লেখো: বাসভাড়া দশ শতাংশ বেড়েছে, তাই অনেক শিক্ষার্থী এখন হেঁটে কলেজে যায়।","বাসভাড়া দশ শতাংশ বেড়ে গেলে, অনেক শিক্ষার্থী এখন হেঁটে কলেজে যায়।",123,73,97,6.225e-05,13.510310999998183,stop,False,1.0,123,True
+p40,summarise,en,"Summarise in one sentence: The bus fare went up by ten percent, so many students now walk to college.",Increased bus fares lead to more students walking to college.,50,12,24,1.47e-05,4.059821800001373,stop,False,0.0,50,True
+p41,long,en,"I am planning a trip to Cox's Bazar next month. I will travel with my parents, who are both over sixty. We do not want to walk very much. What should we keep in mind when planning this trip?","When planning your trip to Cox's Bazar with your parents, who are both over 60 years old and prefer not to walk much, consider the following tips:
+
+1. **Choose Accommodations with Ground Transportation**: Opt for hotels or resorts that offer transportation services, such as taxis or private cars, to help you reach popular attractions without walking.
+
+2. **Select Tour Packages**: Look for tour packages that include transportation and are designed for older travelers. These often provide comfortable vehicles and experienced guides who can help navigate the area.
+
+3. **Plan for Comfortable Transportation**: Ensure that any transportation you use is comfortable and suitable for your parents' age and physical condition. This might mean avoiding crowded public transport.
+
+4. **Plan for Sightseeing**: Choose sightseeing options that are less strenuous. Opt for boat tours, boat rides, or guided tours that cover less walking. Cox's Bazar has several beaches and water activities that can be enjoyable without extensive walking.
+
+5. **Stay Hydrated and Eat Well**: Encourage your parents to stay hydrated and eat well. Some tour packages might include meals, which can be a good option for your parents.
+
+6. **Check Weather Conditions**: Cox's Bazar can be hot and humid, especially during the monsoon season. Check weather forecasts and plan accordingly to avoid discomfort.
+
+7. **Safety First**: Ensure that the tour operators and accommodations are reliable and safe. Safety is crucial, especially for older travelers.
+
+8. **Plan for Medical Assistance**: Consider the possibility of needing medical assistance during your trip. Make sure the tour operators and accommodations are equipped to handle any medical emergencies.
+
+By keeping these points in mind, you can ensure a comfortable and enjoyable trip to Cox's Bazar.",72,351,46,0.0002214,54.032107899998664,stop,False,0.0,72,True
+p41,long,bn,"আমি আগামী মাসে কক্সবাজারে বেড়াতে যাওয়ার পরিকল্পনা করছি। আমি আমার মা-বাবার সঙ্গে যাব, যাঁদের দুজনেরই বয়স ষাটের বেশি। আমরা খুব বেশি হাঁটতে চাই না। এই ভ্রমণের পরিকল্পনা করার সময় আমাদের কী কী মনে রাখা উচিত?","আপনার মাসিক বেড়াল পরিকল্পনা করতে একুন, আপনি নিম্নলিখিত সম্পর্কগুলি মনে রাখতে পারেন:
+
+1. আপনার মা-বাবার সঙ্গে যাওয়ার পরিকল্পনা।
+2. বয়স ষাটের বেশি বৈঠক করা।
+3. হাটতে না চাইনো মনে রাখা।
+4. ভ্রমণের মাধ্যমে আপনার মা-বাবার সাথে সাথে সম্পর্ক বাড়ানো।
+5. আপনার মা-বাবার বিষয়গুলি সম্পর্কে আলোচনা করা।
+
+এই সম্পর্কগুলি মনে রাখলে আপনি আপনার মাসিক বেড়াল পরিকল্পনা করে যাবেন।",241,379,215,0.00026355,59.73559899999964,stop,False,1.0,241,True
+p42,long,bn,আমাদের অফিসে প্রতিদিন প্রচুর কাগজ ব্যবহার হয়। ছাপানো বেশিরভাগ পাতা একবার ব্যবহারের পরই ফেলে দেওয়া হয়। ম্যানেজার এই অপচয় কমাতে চান। আমরা নিতে পারি এমন তিনটি বাস্তবসম্মত পদক্ষেপের পরামর্শ দাও।,"1. পাতা বেশিরভাগ সময় পরে ফেলে দেওয়া ব্যবহার ছাড়াও পাতা সংরক্ষণের পদক্ষেপ নেওয়া। সংরক্ষিত পাতা সময় পরে ব্যবহার করা হতে পারে।
+
+2. অফিসের পাতা সংখ্যা বৃদ্ধির পরামর্শ করা। পাতা সংখ্যা বৃদ্ধির পর প্রচুর পাতা বেশি সময় পরে ফেলে দেওয়া হয় না।
+
+3. পাতা বিতরণ সময় নিয়ে গুরুত্ব দেওয়া। পাতা বিতরণ সময় নিয়ে গুরুত্ব দেওয়া হলে প্রচুর পাতা বেশি সময় পরে ফেলে দেওয়া হয় না।",226,398,200,0.00027269999999999996,62.83047419999639,stop,False,1.0,226,True
+p42,long,en,Our office uses a lot of paper every day. Most printed pages are thrown away after one use. The manager wants to reduce this waste. Suggest three practical steps we can take.,"1. Implement a document management system to store and access documents electronically.
+2. Use both sides of the paper for printing documents.
+3. Encourage the use of digital signatures for documents that require them.",63,42,37,3.465e-05,8.459224999998696,stop,False,0.0,63,True
+p43,long,en,My younger brother is starting university next week. He is nervous about living away from home for the first time. He also worries about making new friends. What advice can I give him?,"Here are some tips for your younger brother:
+
+1. **Prepare Mentally**: Living away from home can be exciting and a bit scary. Remind him that it's a new chapter and a chance to grow independently.
+
+2. **Create a Routine**: Establishing a daily routine can help him feel more comfortable and in control.
+
+3. **Join Clubs and Societies**: Universities often have various clubs and societies that cater to different interests. Encourage him to join one or more to meet new people.
+
+4. **Volunteer**: Volunteering can be a great way to meet people and feel like he's contributing to the community.
+
+5. **Communicate**: Encourage him to talk to his professors and classmates. Universities often have resources to help students feel more connected.
+
+6. **Take Care of Himself**: Encourage him to take care of his physical and mental health. Universities usually have counseling services and wellness centers.
+
+7. **Be Patient**: Making new friends takes time. Encourage him to be patient and not rush into anything.
+
+8. **Stay Connected**: Encourage him to stay in touch with family and friends back home. This can provide a sense of comfort and support.
+
+9. **Explore**: Encourage him to explore the city and the university campus. This can help him feel more at home and reduce feelings of isolation.
+
+10. **Have Fun**: Lastly, remind him to enjoy the experience. Universities are full of opportunities for fun and learning.",63,298,37,0.00018825,34.57124489999842,stop,False,0.0,63,True
+p43,long,bn,আমার ছোট ভাই আগামী সপ্তাহে বিশ্ববিদ্যালয়ে পড়া শুরু করছে। প্রথমবার বাড়ি থেকে দূরে থাকা নিয়ে সে উদ্বিগ্ন। নতুন বন্ধু বানানো নিয়েও সে চিন্তিত। আমি তাকে কী পরামর্শ দিতে পারি?,"আপনার ছোট ভাইকে পরামর্শ দিতে যে কিছু হতে পারে:
+
+1. প্রথমে বিশ্ববিদ্যালয়ের পরিকল্পনা করুন। এটি তাকে প্রথম পর্যন্ত সমস্ত কাজ সুরক্ষিত রাখবে।
+
+2. নতুন বন্ধু বানানোর জন্য সময় নিন। প্রথম দিনে বন্ধুদের সাথে যোগাযোগ করুন এবং তাদের সাথে কথা বলুন।
+
+3. বিশ্ববিদ্যালয়ের প্রথম দিনে সব কিছু সম্পর্কে তাকে বিশ্লেষণ করুন। তার প্রথম পর্যন্ত সমস্ত কাজ সুরক্ষিত রাখুন।
+
+4. তাকে বলুন যে প্রথম দিনে তার বিশ্ববিদ্যালয়ের প্রথম পর্যন্ত সমস্ত কাজ সুরক্ষিত রাখা উচিত।
+
+5. তাকে বলুন যে তার প্রথম দিনে সব কিছু সম্পর",215,512,189,0.00033945,77.98065810000116,length,True,1.0,215,True
+p44,long,bn,"একটি ছোট দোকানে প্রতিদিন ১০ টাকা দামে ৪০ কাপ চা বিক্রি হয়। মালিক দাম বাড়িয়ে ১২ টাকা করতে চান। তার ধারণা, প্রতিদিন ৫ কাপ কম বিক্রি হবে। তার দৈনিক আয় বাড়বে না কমবে, এবং কত?","মালিক দাম বাড়িয়ে 12 টাকা করে প্রতিদিন 40 কাপ চা বিক্রি হবে 480 টাকা। তার ধারণা হল, প্রতিদিন 5 কাপ কমবে, তাহলে প্রতিদিন 35 কাপ চা বিক্রি হবে 350 টাকা।
+
+এটি মানে যে মালিকের দৈনিক আয় বাড়বে না কমবে এবং প্রতিদিন 35 কাপ চা বিক্রি হবে 350 টাকা।",217,247,191,0.00018075,39.61449510000239,stop,False,1.0,217,True
+p44,long,en,"A small shop sells 40 cups of tea a day at 10 taka each. The owner wants to raise the price to 12 taka. He expects to sell 5 fewer cups per day. Will his daily income go up or down, and by how much?","His daily income will go down.
+
+Current daily income: 40 cups * 10 taka/cup = 400 taka
+
+New daily income: (40 cups - 5 cups) * 12 taka/cup = 35 cups * 12 taka/cup = 420 taka
+
+Change in daily income: 400 taka - 420 taka = -20 taka
+
+His daily income will go down by 20 taka.",85,112,59,7.995e-05,17.54325609999796,stop,False,0.0,85,True
+p45,long,en,"Read this short story: A boy found a wallet on the street. It had money and an ID card inside. He took it to the police station. The next day, the owner came to thank him. What is the moral of this story?",The moral of this story is that the boy exhibited good character by returning lost property and helping someone in need.,76,23,50,2.52e-05,4.555611999996472,stop,False,0.0,76,True
+p45,long,bn,এই ছোট গল্পটি পড়ো: একটি ছেলে রাস্তায় একটি মানিব্যাগ পেল। এর ভেতরে টাকা আর একটি পরিচয়পত্র ছিল। সে এটি থানায় নিয়ে গেল। পরদিন মালিক এসে তাকে ধন্যবাদ জানাল। এই গল্পের নীতিকথা কী?,"নীতিকথা: সত্যবাদ এবং শ্রম কর্মীদের সাহায্য করা। ছেলেটি মানিব্যাগ থানায় নিয়ে যানোর পর পরদিন মালিক তাকে ধন্যবাদ জানানোর পরিকল্পনা ছিল না, তাই নীতিকথা হল ছেলেটি মানিব্যাগ থানায় নিয়ে যানো এবং পরদিন মালিকের কাছে পরিচয়পত্র ও টাকা দেওয়ার প্রচেştaণ।",214,261,188,0.00018869999999999998,28.133403299994825,stop,False,0.985,214,True
+p46,long,bn,জলবায়ু পরিবর্তনের কারণে সমুদ্রপৃষ্ঠের উচ্চতা বাড়ছে। বাংলাদেশের উপকূলীয় এলাকাগুলো আরও বেশি বন্যা আর ক্ষেতে লবণাক্ত পানির সমস্যায় পড়ছে। অনেক পরিবারকে শহরে চলে যেতে হয়েছে। সরকার এই পরিবারগুলোকে সাহায্য করতে পারে এমন দুটি উপায় ব্যাখ্যা করো।,"সরকার এই পরিবারগুলোকে সাহায্য করতে পারে এই দুটি উপায় হল:
+
+1. বন্যা আর ক্ষেতে লবণাক্ত পানির সমস্যার সমাধান: সরকার সমস্ত বন্যা আর ক্ষেতে লবণাক্ত পানির সমস্যার সমাধান করতে পারে এবং সেই পানি প্রদান করতে পারে।
+
+2. শহরে বাসের বিকল্প স্থান পেতে সরকার স্থানীয় শহর বা শহরের বাইরে বাসের বিকল্প স্থান পেতে সরকার সাহায্য করতে পারে।",287,326,261,0.00023864999999999997,33.9389857999995,stop,False,1.0,287,True
+p46,long,en,Climate change is causing sea levels to rise. Coastal areas of Bangladesh face more floods and salty water in their fields. Many families have had to move to cities. Explain two ways the government could help these families.,"Two ways the government could help these families are:
+
+1. Providing relocation assistance: The government could offer financial support, including housing subsidies, to help families move to safer areas within Bangladesh. This could include providing temporary or permanent housing, as well as support for setting up new homes and businesses in new locations.
+
+2. Investing in climate-resilient infrastructure: The government could invest in building sea walls, levees, and other infrastructure to protect coastal areas from rising sea levels and saltwater intrusion. This would help prevent further damage to agricultural lands and reduce the need for families to relocate. Additionally, the government could support the development of alternative livelihoods, such as aquaculture or salt-resistant crops, to help families adapt to the changing environment.",68,150,42,0.00010020000000000001,15.595051899996179,stop,False,0.0,68,True
+p47,long,en,"I want to learn programming, but I have only one hour a day. I have a basic laptop and a slow internet connection. I am interested in building websites. Which language should I start with, and how should I plan my hour?","Given your constraints, you should start with JavaScript. Here's a plan for your one-hour daily learning session:
+
+1. **JavaScript Basics**: Spend the first 10-15 minutes watching a short video tutorial or reading an article on JavaScript basics. Websites like freeCodeCamp or MDN Web Docs are good resources.
+
+2. **Practice**: Spend the next 10-15 minutes practicing with JavaScript. You can use online coding platforms like CodePen or Repl.it to practice small snippets of code. These platforms allow you to run code snippets and see the results immediately.
+
+3. **Read**: Spend the last 10-15 minutes reading about a specific aspect of JavaScript, such as DOM manipulation, event handling, or asynchronous programming. This will help you understand the language better and give you a deeper insight into web development.
+
+Remember, the key is consistency. Even if you can only dedicate one hour a day, the more consistent you are, the faster you'll learn.",74,202,48,0.0001323,20.751265899998543,stop,False,0.0,74,True
+p47,long,bn,"আমি প্রোগ্রামিং শিখতে চাই, কিন্তু আমার হাতে দিনে মাত্র এক ঘণ্টা সময় আছে। আমার একটি সাধারণ ল্যাপটপ আর ধীরগতির ইন্টারনেট সংযোগ আছে। আমি ওয়েবসাইট তৈরিতে আগ্রহী। কোন ভাষা দিয়ে শুরু করা উচিত, এবং আমার এক ঘণ্টা কীভাবে পরিকল্পনা করা উচিত?","আপনি একটি প্রোগ্রামিং ভাষা শিখতে চান তা স্পষ্ট। আপনার সময় এবং প্রয়োজনীয় প্রবলেম সমাধানের জন্য একটি পরিকল্পনা করতে পারেন। একটি সাধারণ পছন্দের পছন্দ ভাষা হল হাস্কল (Haskell) বা ফ্লামাস (Flamash), এই দুটি ভাষা আপনার সময় এবং প্রয়োজনীয় প্রবলেম সমাধানে বিশেষভাবে উপযোগী।
+
+এখন আপনার এক ঘণ্টা পরিকল্পনা করতে পারেন:
+
+1. প্রথম ঘণ্টা: হাস্কল বা ফ্লামাস এর বৈশিষ্ট্য এবং ব্যবহারের প্রথম প্রোগ্রাম লিখুন। এটি আপনার প্রোগ্রামিং শিখতে পারে এবং আপনার সামগ্রিক প্রয়োজনীয় প্রবলেম সমাধানে বিশেষভাবে উপযোগী হতে",275,512,249,0.00034845,52.1357349999962,length,True,0.966,275,True
+p48,long,bn,একটি অ্যাপার্টমেন্ট ভবনের জন্য একটি ছোট নোটিশ লেখো। শনিবার সকাল ৯টা থেকে দুপুর ২টা পর্যন্ত পানি সরবরাহ বন্ধ থাকবে। পানির ট্যাংক পরিষ্কারের জন্য এটি করা হচ্ছে। বাসিন্দাদের আগের রাতে যথেষ্ট পানি জমিয়ে রাখা উচিত।,"নোটিশ:
+
+শনিবার সকাল 9টা থেকে দুপুর 2টা পর্যন্ত পানি সরবরাহ বন্ধ থাকবে। এর মধ্যে পানির ট্যাংক পরিষ্কারের জন্য পানি জমিয়ে রাখা আবশ্যক। বাসিন্দাদের আগের রাতে পানি জমিয়ে রাখা উচিত।",244,182,218,0.0001458,20.86327159999928,stop,False,1.0,244,True
+p48,long,en,Write a short notice for an apartment building. The water supply will be off on Saturday from 9 am to 2 pm. This is for cleaning the water tank. Residents should store enough water the night before.,"Notice to Residents:
+
+Due to scheduled maintenance, the water supply will be off from 9 AM to 2 PM on Saturday. Please store enough water for your needs the night before. Thank you for your cooperation.
+
+Sincerely,
+[Apartment Building Management]",69,53,43,4.215e-05,7.295234600002004,stop,False,0.0,69,True
+p49,long,en,"A student scored 72 in Maths, 85 in English and 64 in Physics. The pass mark in each subject is 40. To get a scholarship, the average must be at least 75. Did the student pass all subjects, and does the student get the scholarship?","No, the student did not pass all subjects as they scored below the pass mark in Physics (64 < 40).
+
+To calculate the average score: (72 + 85 + 64) / 3 = 221 / 3 ≈ 73.67, which is below the required scholarship average of 75.
+
+Therefore, the student does not get the scholarship.",88,87,62,6.539999999999999e-05,10.852422399999341,stop,False,0.0,88,True
+p49,long,bn,"একজন শিক্ষার্থী গণিতে ৭২, ইংরেজিতে ৮৫ এবং পদার্থবিজ্ঞানে ৬৪ পেয়েছে। প্রতিটি বিষয়ে পাস নম্বর ৪০। বৃত্তি পেতে গড় নম্বর কমপক্ষে ৭৫ হতে হবে। শিক্ষার্থী কি সব বিষয়ে পাস করেছে, এবং সে কি বৃত্তি পাবে?","শিক্ষার্থী গণিতে, ইংরেজিতে এবং পদার্থবিজ্ঞানে সব পাস করেছেন। তার গড় হল (72 + 85 + 64) / 3 = 75.33।
+
+পাস নম্বর 40 এবং গড় 75.33 হলে, তার বৃত্তি পেতে গড় নম্বর কমপক্ষে 75 হতে হবে। তাই শিক্ষার্থী বৃত্তি পাবে।",244,211,218,0.00016319999999999998,23.82485259999521,stop,False,1.0,244,True
+p50,long,bn,নিচের অনুচ্ছেদটি দুই বাক্যে সংক্ষেপ করো: ঢাকা বিশ্বের সবচেয়ে জনবহুল শহরগুলোর একটি। যানজটে প্রতিদিন মানুষের অনেক ঘণ্টা নষ্ট হয়। নতুন মেট্রোরেল কিছু রুটে যাতায়াতের সময় কমিয়েছে। তবে অনেক এলাকা এখনো এর সঙ্গে যুক্ত নয়।,"নিচে দুই বাক্যে সংক্ষেপিত করা হয়েছে:
+
+1. ঢাকা বিশ্বের জনবহুল শহর এবং নতুন মেট্রোরেল যাতায়াতের সময় কমিয়েছে।
+2. কিন্তু অনেক এলাকা এর সঙ্গে যুক্ত নয়।",265,163,239,0.00013754999999999998,19.781337500004156,stop,False,1.0,265,True
+p50,long,en,"Summarise the following paragraph in two sentences: Dhaka is one of the most crowded cities in the world. Traffic jams waste many hours of people's time every day. The new metro rail has reduced travel time on some routes. However, many areas are still not connected to it.","Dhaka, one of the world's most crowded cities, suffers from frequent traffic jams that waste significant daily travel time. While the introduction of a metro rail system has improved travel times on some routes, many areas remain unconnected, exacerbating the city's transportation challenges.",84,56,58,4.6200000000000005e-05,7.609590100000787,stop,False,0.0,84,True
